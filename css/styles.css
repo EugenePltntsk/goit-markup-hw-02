@@ -1,0 +1,93 @@
+/* Цвет основного текста #212121 */
+
+/* Цвет второстепенного текста  #757575; */
+
+/* шрифт лого Raleway. цвета лого #2196F3 и #000000 */
+
+/* акцент #2196F3 */
+
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #ffffff;
+    --secondary-bg-color: #2F303A;
+    --white-text: #ffffff;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: var(--title-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+/* Logo */
+
+.header-logo {
+    color: #000;
+}
+
+/* Site nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+
+}
+
+.nav-header .nav-portfolio.current {
+    color: var(--accent-color);
+}
+
+
+/* Contacts nav */
+
+.contacts-nav .link {
+    color: var(--primary-text-color);
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+    color: var(--title-text-color);
+}
+
+/* Section */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Features */
+
+.feature-list .title {
+    color: var(--title-text-color)
+}
+
+/* Examples */
+
+/* Button */
+
+.button {
+    color: var(--white-text);
+    background-color: var(--accent-color);
+
+}
