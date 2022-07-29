@@ -134,6 +134,7 @@ body p {
 /* Button */
 
 .button {
+    cursor: pointer;
     color: var(--white-text);
     background-color: var(--accent-color);
     font-family: inherit;
@@ -150,6 +151,7 @@ body p {
 
 
 .button-filter {
+    cursor: pointer;
     background-color: var(--button-filters-bg);
     font-family: inherit;
     font-weight: 500;
@@ -192,7 +194,7 @@ body p {
 }
 
 .feature-list .text {
-    font-weight: 400;
+    
     font-size: 14px;
     line-height: 1.71;
     /* or 171% */
