@@ -212,6 +212,10 @@ body p {
 
 /* Staff List */
 
+.team {
+    background-color: var(--button-filters-bg);
+}
+
 .staff-list li {
     list-style: none;
 }
@@ -235,7 +239,7 @@ body p {
     letter-spacing: 0.03em;
 }
 
-/* Examples */
+
 
 
 
@@ -307,10 +311,21 @@ body p {
 
 .project-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;
 }
 
 .project-text {
     color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
 }
 
 .page-footer a {
@@ -323,4 +338,19 @@ body p {
 
 .address {
     font-style: normal;
+}
+
+.footer-nav .map:hover,
+.footer-nav .map:focus {
+    color: var(--accent-color);
+}
+
+.footer-nav .email:hover,
+.footer-nav .email:focus {
+    color: var(--accent-color);
+}
+
+.footer-nav .phone:hover,
+.footer-nav .phone:focus {
+    color: var(--accent-color);
 }
