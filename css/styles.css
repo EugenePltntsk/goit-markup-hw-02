@@ -164,7 +164,8 @@ body p {
     border: 0;
 }
 
-.button-filter:hover {
+.button-filter:hover,
+.button-filter:focus {
     background-color: var(--accent-color);
     color: var(--white-text);
 }
