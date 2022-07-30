@@ -15,6 +15,7 @@
     --secondary-bg-color: #2F303A;
     --white-text: #ffffff;
     --button-filters-bg: #F5F4FA;
+    --footer-contacts-color: #66ffffff;
 }
 
 body {
@@ -266,7 +267,7 @@ body p {
 
 .footer-nav .email
 .footer-nav .phone {
-    color: var(--primary-text-color);
+    color: var(--footer-contacts-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -295,7 +296,7 @@ body p {
 
 .footer-nav .phone,
 .footer-nav .email {
-    color: var(--primary-text-color);
+    color: var(--footer-contacts-color);
 }
 
 .filter-list li {
